@@ -2,19 +2,18 @@
 
 
 ## What you need before to have before the first lesson 
-1. You need laptop. 
+### You need laptop. 
 - Please make sure you have a charger. 
 - Also, make sure you have free disk space. 
 - You have working wi-fi adapter in your laptop. 
 - And you know your laptop ADMIN password to be able to install the software.
 
-2. Please download and insatll SQL client software.
+## Please download and insatll SQL client software.
 
-- For windows: SQL Server Management Studio Installation.docx 
-- For any OS: SQL Operations Studio instalation.docx
+- IF you have OS <b>WINDOWS</b> then install SQL <b>Server Management Studio</b> following this [Instruction] (SQL Server Management Studio Installation.docx) 
+- If you have <b>MacOS</b> then install <b>Azure Data Studio</b> following this [Instruction](SQL Operations Studio instalation.docx)
 
 
-Here are instructions. 
 Please note, <b>YOU WOULDN'T BE ABLE TO CONNECT TO OUR DATABASE PRIOR TO THE CLASS</b>. 
 
 We will connect to database at the first lesson. 
@@ -22,12 +21,21 @@ We will connect to database at the first lesson.
 
 ## Lessons and materials
 
-Our lessons are going to be remote via zoom. Please go via following URL to join to the lesson.
+Our lessons are going to be remote via Zoom. 
 
-(https://zoom.us/j/903084983?pwd=R1NNT3V3MjU4SUZqaDVNdWN1UzByUT09)
+Here is URL to join to the lesson https://zoom.us/j/903084983?pwd=R1NNT3V3MjU4SUZqaDVNdWN1UzByUT09
+It is higly recomendes to try to connect to the meeting in advance in order to download and install Zoom software and verify that you are able to connect to the meeting.
 
 
-[Lesson 1](./Lesson1)
+## Documentation
+We are going to have 3 lessons so documentation you will be able to find via following link
+### [Lesson 1](./Lesson1)
+- [The lesson material](./Lesson1/DataBase.pdf)
+- Sample database [HomePro](./Lesson1/HomePro Example.pdf)
+- Sample database [Bank](./Lesson1/Bank Example.pdf)
+
+### [Lesson 2](./Lesson2)
+- [The lesson material](./Lesson1/DataBase.pdf)
 
 
 ## Connection to database from home 
