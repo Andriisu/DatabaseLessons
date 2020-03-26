@@ -8,10 +8,9 @@
 - You have working wi-fi adapter in your laptop. 
 - And you know your laptop ADMIN password to be able to install the software.
 
-## Please download and insatll SQL client software.
+## Please download and install SQL client software.
 
-- IF you have OS <b>WINDOWS</b> then install SQL <b>Server Management Studio</b> following this 
-[Instruction] ("./SQL Server Management Studio Installation.docx") 
+- IF you have OS <b>WINDOWS</b> then install SQL <b>Server Management Studio</b> following this [Instruction] ("./SQL%20Server%20Management%20Studio%20Installation.docx) 
 - If you have <b>MacOS</b> then install <b>Azure Data Studio</b> following this 
 [Instruction](SQL Operations Studio instalation.docx)
 
@@ -34,7 +33,7 @@ It is higly recomendes to try to connect to the meeting in advance in order to d
 We are going to have 3 lessons so documentation you will be able to find via following link
 ### [Lesson 1](./Lesson1)
 - [The lesson material](./Lesson1/DataBase.pdf)
-- [Sample database HomePro]("./Lesson1/HomePro Example.pdf")
+- [Sample database HomePro](./Lesson1/HomePro%20Example.pdf)
 - [Sample database Bank](./Lesson1/Bank Example.pdf)
 
 ### [Lesson 2](./Lesson2)
