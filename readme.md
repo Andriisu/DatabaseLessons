@@ -10,9 +10,8 @@
 
 ## Please download and install SQL client software.
 
-- IF you have OS <b>WINDOWS</b> then install SQL <b>Server Management Studio</b> following this [Instruction]("./SQL%20Server%20Management%20Studio%20Installation.docx) 
-- If you have <b>MacOS</b> then install <b>Azure Data Studio</b> following this 
-[Instruction](SQL Operations Studio instalation.docx)
+- IF you have OS <b>WINDOWS</b> then install SQL <b>Server Management Studio</b> following [SSMS Instruction](SQL%20Server%20Management%20Studio%20Installation.docx) 
+- If you have <b>MacOS</b> then install <b>Azure Data Studio</b> following [ADS Instruction](SQL%20Operations%20Studio%20instalation.docx)
 
 
 Please note, <b>YOU WOULDN'T BE ABLE TO CONNECT TO OUR DATABASE PRIOR TO THE CLASS</b>. 
