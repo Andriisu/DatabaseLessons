@@ -1,8 +1,8 @@
 # Learnix SQL lessons
 
 
-## What you need before to have before the first lesson 
-### You need laptop. 
+## What you need to have before the first lesson 
+### You need laptop
 - Please make sure you have a charger. 
 - Also, make sure you have free disk space. 
 - You have working wi-fi adapter in your laptop. 
@@ -10,8 +10,10 @@
 
 ## Please download and install SQL client software.
 
-- IF you have OS <b>WINDOWS</b> then install SQL <b>Server Management Studio</b> following [SSMS Instruction](SQL%20Server%20Management%20Studio%20Installation.docx) 
+- If you have OS <b>WINDOWS</b> then install <b>SQL Server Management Studio</b> following [SSMS Instruction](SQL%20Server%20Management%20Studio%20Installation.docx) 
 - If you have <b>MacOS</b> then install <b>Azure Data Studio</b> following [ADS Instruction](SQL%20Operations%20Studio%20instalation.docx)
+
+<b>Warning</b> You may not be able to read instructions derectrly following the link. Please use a contect menu on the link (click right mouse button) and use option "Save link as" to download the file on your machine and open. 
 
 
 Please note, <b>YOU WOULDN'T BE ABLE TO CONNECT TO OUR DATABASE PRIOR TO THE CLASS</b>. 
