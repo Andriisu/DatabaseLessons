@@ -13,7 +13,7 @@
 - If you have OS <b>WINDOWS</b> then install <b>SQL Server Management Studio</b> following [SSMS Instruction](SQL%20Server%20Management%20Studio%20Installation.docx) 
 - If you have <b>MacOS</b> then install <b>Azure Data Studio</b> following [ADS Instruction](SQL%20Operations%20Studio%20instalation.docx)
 
-<b>Warning</b> You may not be able to read instructions derectrly following the link. Please use a contect menu on the link (click right mouse button) and use option "Save link as" to download the file on your machine and open. 
+<b>Warning</b> You may not be able to read instructions directly following the link. Please use a contect menu on the link (click right mouse button) and use option "Save link as" to download the file on your machine and open. 
 
 
 Please note, <b>YOU WOULDN'T BE ABLE TO CONNECT TO OUR DATABASE PRIOR TO THE CLASS</b>. 
@@ -25,7 +25,7 @@ We will connect to database at the first lesson.
 
 Our lessons are going to be remote via Zoom. 
 
-Here is URL to join to the lesson https://zoom.us/j/903084983?pwd=R1NNT3V3MjU4SUZqaDVNdWN1UzByUT09
+Here is URL to join to the lesson https://zoom.us/j/174908283?pwd=ME5zZ0N3UlBjUlREakx0Y1ZDM0N1dz09
 <br>
 It is higly recomendes to try to connect to the meeting in advance in order to download and install Zoom software and verify that you are able to connect to the meeting.
 
@@ -40,6 +40,10 @@ We are going to have 3 lessons so documentation you will be able to find via fol
 ### [Lesson 2](./Lesson2)
 - [The lesson material](./Lesson2/Joins.pdf)
 - [The lesson assigments](./Lesson2/SQL%20Join%20tasks.pdf)
+
+### [Lesson 2](./Lesson3)
+- [The lesson material](./Lesson3/StoredProcedures.pdf)
+- [The lesson assigments](./Lesson3/SP_Tasks.pdf)
 
 ## Connection to database from home 
 As per security reasons, we need to register allowed IP addresses for connection.
