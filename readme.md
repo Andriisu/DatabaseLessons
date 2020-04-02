@@ -40,8 +40,9 @@ We are going to have 3 lessons so documentation you will be able to find via fol
 ### [Lesson 2](./Lesson2)
 - [The lesson material](./Lesson2/Joins.pdf)
 - [The lesson assigments](./Lesson2/SQL%20Join%20tasks.pdf)
+- [SQL Joins Reference](./Lesson2/Visual_SQL_JOINS_orig.jpg)
 
-### [Lesson 2](./Lesson3)
+### [Lesson 3](./Lesson3)
 - [The lesson material](./Lesson3/StoredProcedures.pdf)
 - [The lesson assigments](./Lesson3/SP_Tasks.pdf)
 
