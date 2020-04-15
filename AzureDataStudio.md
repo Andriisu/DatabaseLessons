@@ -25,7 +25,7 @@ Please fill the fields as depicted at picture below.
 - Database Name: <b>main</b>
 
 Push the button <b>“Connect”</b>.
-![./docs/ADS_Icon.png](./docs/ADS_Icon.png)
+![./docs/ADS_Login.png](./docs/ADS_Login.png)
 
 # Execute SQL queries.
 Having successful login you must see picture like below. Push the button “New query”.
