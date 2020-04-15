@@ -8,10 +8,12 @@
 - You have working wi-fi adapter in your laptop. 
 - And you know your laptop ADMIN password to be able to install the software.
 
-## Please download and install SQL client software.
+## Please download and install SQL client software
 
 - If you have OS <b>WINDOWS</b> then install <b>SQL Server Management Studio</b> following [SSMS Instruction](SQLServerManagementStudioInstallation.md) 
 - If you have <b>MacOS</b> then install <b>Azure Data Studio</b> following [ADS Instruction](SQL%20Operations%20Studio%20instalation.docx)
+
+<br>
 
 <b>Warning</b> You may not be able to read instructions directly following the link. Please use a contect menu on the link (click right mouse button) and use option "Save link as" to download the file on your machine and open. 
 
