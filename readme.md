@@ -10,7 +10,7 @@
 
 ## Please download and install SQL client software.
 
-- If you have OS <b>WINDOWS</b> then install <b>SQL Server Management Studio</b> following [SSMS Instruction](SQL%20Server%20Management%20Studio%20Installation.docx) 
+- If you have OS <b>WINDOWS</b> then install <b>SQL Server Management Studio</b> following [SSMS Instruction](SQLServerManagementStudioInstallation.md) 
 - If you have <b>MacOS</b> then install <b>Azure Data Studio</b> following [ADS Instruction](SQL%20Operations%20Studio%20instalation.docx)
 
 <b>Warning</b> You may not be able to read instructions directly following the link. Please use a contect menu on the link (click right mouse button) and use option "Save link as" to download the file on your machine and open. 
@@ -25,7 +25,7 @@ We will connect to database at the first lesson.
 
 Our lessons are going to be remote via Zoom. 
 
-Here is URL to join to the lesson https://zoom.us/j/174908283?pwd=ME5zZ0N3UlBjUlREakx0Y1ZDM0N1dz09
+Here is URL to join to the lesson https://zoom.us/j/361503133?pwd=NGJZanVGQmh1cnR6enRJNmVmeXRjdz09
 <br>
 It is higly recomendes to try to connect to the meeting in advance in order to download and install Zoom software and verify that you are able to connect to the meeting.
 
