@@ -7,8 +7,10 @@ Clink on the link highlighted below to download installation that suits your ope
 
 # First Login
 
-As soon as installation finished, you should be able to see thr icon like this one. 
+As soon as installation finished, you should be able to see the icon like this one. 
+<br>
 ![./docs/ADS_Icon.png](./docs/ADS_Icon.png)
+<br>
 Go and launch Azure Data Studio.
 
 As soon as ADS started you will be prompted to fill login information. 

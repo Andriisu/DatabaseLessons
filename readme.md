@@ -20,7 +20,7 @@ As per security reasons, we need to register allowed IP addresses for connection
 
 - As soon as you got home please navigate to URL: http://www.myipaddress.com/show-my-ip-address/ 
 - You will see 4 numbers separated by dots. For instance: 72.201.23.56 
-- Send these IP Address to via email andrew.a4100@gmail.com. 
+- Send this IP Address to via email andrew.a4100@gmail.com. 
 - As soon as I added your IP address to the whitelist I will respond you.
 - After that you will be able to connect to database from home.
 
