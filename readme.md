@@ -10,20 +10,22 @@
 
 ## Please download and install SQL client software
 
+Please download and install SQL client software
 - If you have OS <b>WINDOWS</b> then install <b>SQL Server Management Studio</b> following [SSMS Instruction](SQLServerManagementStudioInstallation.md) 
-- If you have <b>MacOS</b> then install <b>Azure Data Studio</b> following [ADS Instruction](SQL%20Operations%20Studio%20instalation.docx)
-
-<br>
-
-<b>Warning</b> You may not be able to read instructions directly following the link. Please use a contect menu on the link (click right mouse button) and use option "Save link as" to download the file on your machine and open. 
+- If you have <b>MacOS</b> then install <b>Azure Data Studio</b> following [ADS Instruction](AzureDataStudio.md)
 
 
-Please note, <b>YOU WOULDN'T BE ABLE TO CONNECT TO OUR DATABASE PRIOR TO THE CLASS</b>. 
+## Connection to database from home 
+As per security reasons, we need to register allowed IP addresses for connection.
 
-We will connect to database at the first lesson. 
+- As soon as you got home please navigate to URL: http://www.myipaddress.com/show-my-ip-address/ 
+- You will see 4 numbers separated by dots. For instance: 72.201.23.56 
+- Send these IP Address to via email andrew.a4100@gmail.com. 
+- As soon as I added your IP address to the whitelist I will respond you.
+- After that you will be able to connect to database from home.
 
 
-## Lessons and materials
+# Lessons and materials
 
 Our lessons are going to be remote via Zoom. 
 
@@ -47,18 +49,4 @@ We are going to have 3 lessons so documentation you will be able to find via fol
 ### [Lesson 3](./Lesson3)
 - [The lesson material](./Lesson3/StoredProcedures.pdf)
 - [The lesson assigments](./Lesson3/SP_Tasks.pdf)
-
-## Connection to database from home 
-As per security reasons, we need to register allowed IP addresses for connection.
-
-- As soon as you got home prease navigate to URL: http://www.myipaddress.com/show-my-ip-address/ 
-- You will se 4 number separated by dots.
-- Send these number to me via email andrew.a4100@gmail.com. 
-- As soon as I added you IP address to the whitelist I will respond you.
-- After that you will be able to connect to database from home.
-
-
-
-The Repository is CI. 
-<b>The build pipeline [ApexClient](https://totalwinemore.visualstudio.com/TWM%20Agile%20Projects/_build?definitionId=288&_a=summary&view=branches)</b>
 

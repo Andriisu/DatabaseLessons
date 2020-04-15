@@ -1,5 +1,6 @@
 # Download and install SQL Server Management Studio
 Go to URL: https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
+<br>
 Clink on the link highlighted below to download SSMS installation
 
 ![./docs/SSMS_download.png](./docs/SSMS_download.png)
@@ -25,11 +26,16 @@ Push the button “Connect”.
 
 ![./docs/SSMS_Login2.png](./docs/SSMS_Login2.png)
 
-# SQL queries
+# Execute SQL queries
 
 Having successful login you must see picture like below. You can see “Object Explorer” which shows Database main and at least 6 tables: 
-Bank.Accounts, Bank.Clients, Bank.Transactions, 
-HomePro.Customers, HomePro.Quotes, HomePro.Schedules,
+- Bank.Accounts 
+- Bank.Clients 
+- Bank.Transactions 
+- HomePro.Customers
+- HomePro.Quotes
+- HomePro.Schedules,
+
 Push button “New Query” 
 
 
@@ -45,5 +51,6 @@ You should see picture like this.
 
 
 Congratulations! You have successfully connected to Database, executed SQL query and can proceed with SQL assignments. 
-See file Database HomePro.docx and SQL Join tasks.docx
+- [Sample database HomePro](./Lesson1/HomePro%20Example.pdf)
+- [Sample database Bank](./Lesson1/Bank%20Example.pdf)
 
