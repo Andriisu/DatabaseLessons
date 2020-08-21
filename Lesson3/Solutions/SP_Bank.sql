@@ -1,64 +1,73 @@
-
-select c.ClientId, c.FirstName, c.LastName, c.Age, c.Email
-	
-from Bank.Clients C
-	left join Bank.Accounts A 
-		on c.ClientId = a.ClientId
-where a.ClientId is null
-
-
-
+--Task 1
+create procedure Bank.GetAllClients_Andrey
+as
+begin
+	select ClientId,FirstName,LastName,Phone,Email,State,Age,Type
+	from Bank.Clients
+end
+go
+--Task 2
+create procedure Bank.GetClientsNoAccount_Andrey
+as
+begin
+	select c.ClientId, c.FirstName,c.LastName,c.Phone,c.Email,c.State,c.Age,c.Type
+	from Bank.Clients C
+		left join Bank.Accounts A
+		on C.ClientId = a.ClientId
+	where a.ClientId is null
+end
+go
+--Task 3
+create procedure Bank.GetClientsByAge_Andrey
+	@AgeBegin int, @AgeEnd int 
+as
+begin
+	select *
+	from Bank.Clients C
+	where Age between @AgeBegin and @AgeEnd
+end
+go
 --Task 4
-CREATE PROCEDURE Bank.GetClientsByAge_Andrey
-	@Age int
+create procedure Bank.GetClientsWithNoAccount_Andrey
+	@AccountType CHAR(10)
+as
+begin
+	select *
+	from Bank.Clients C
+		left join Bank.Accounts A
+		on C.ClientId = a.ClientId
+	where a.Type != @AccountType
+end
+go
+-- Task 5 
+CREATE PROCEDURE Bank.GetAccountsWithBalances_Andrey
 AS
 BEGIN
-	if (@Age < 10 or @Age > 100)
-	begin 
-		Raiserror ('The parameter Age is not valid ', 16,10);
-		Return	
-	end
- 
-	select ClientId, FirstName, LastName, Age 
-	from Bank.Clients
-	where age > @Age
-END
-go 
+	declare @TotalBalance numeric(10,2) 
+	select @TotalBalance = sum (Balance) from Bank.Accounts
 
-exec Bank.GetClientsByAge_Andrey @Age =10
-
-
---Task 5 
-declare @TotalBalance numeric(10,2) 
-select @TotalBalance = sum (Balance) from Bank.Accounts
-
-select c.ClientId, c.FirstName, c.LastName, c.Age, c.Email,  
-	A.AccountNum, A.Type, A.Balance, A.Balance/@TotalBalance * 100 as PercentOfTotal,  @TotalBalance as TotalBalance
-from Bank.Clients C
-	join Bank.Accounts A 
-		on c.ClientId = a.ClientId
-
+	select c.ClientId, c.FirstName, c.LastName, c.Age, c.Email,  
+		A.AccountNum, A.Type, A.Balance, A.Balance/@TotalBalance * 100 as PercentOfTotal,  @TotalBalance as TotalBalance
+	from Bank.Clients C
+		join Bank.Accounts A 
+			on c.ClientId = a.ClientId
+end
 go
+--Task 6
+CREATE PROCEDURE Bank.GetAccountsWithBalancesByType_Andrey 
+	@AccountType CHAR(10)
+AS
+BEGIN
+	declare @TotalBalance numeric(10,2) 
+	select @TotalBalance = sum (Balance) from Bank.Accounts
 
-
---Task 5 
-declare @AccountType char(10)  = 'SAVING';
-
-declare @TotalBalance numeric(10,2) 
-
-select @TotalBalance = sum (A.Balance) 
-from Bank.Accounts A
-where A.Type = @AccountType
-
-select c.ClientId, c.FirstName, c.LastName, c.Age, c.Email,  
-	A.AccountNum, A.Type, A.Balance, A.Balance/@TotalBalance * 100 as PercentOfTotal,  @TotalBalance as TotalBalance
-from Bank.Clients C
-	join Bank.Accounts A 
-		on c.ClientId = a.ClientId
-where A.Type = @AccountType
-
-
-
+	select c.ClientId, c.FirstName, c.LastName, c.Age, c.Email,  
+		A.AccountNum, A.Type, A.Balance, A.Balance/@TotalBalance * 100 as PercentOfTotal,  @TotalBalance as TotalBalance
+	from Bank.Clients C
+		join Bank.Accounts A 
+			on c.ClientId = a.ClientId
+	WHERE A.Type = @AccountType
+end
 
 --task 7
 select  c.FirstName, c.LastName, c.Email,  c.State,

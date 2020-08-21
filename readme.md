@@ -33,6 +33,8 @@ Here is URL to join to the lesson https://zoom.us/j/174908283?pwd=ME5zZ0N3UlBjUl
 <br>
 Password: 45229
 <br>
+Lessons dates: Aug 13, Aug 18 , Aug 20
+<br>
 It is higly recomendes to try to connect to the meeting in advance in order to download and install Zoom software and verify that you are able to connect to the meeting.
 
 
