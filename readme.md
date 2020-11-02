@@ -31,6 +31,7 @@ Our lessons are going to be remote via Zoom.
 
 Here is URL to join to the lesson
 https://zoom.us/j/174908283?pwd=ME5zZ0N3UlBjUlREakx0Y1ZDM0N1dz09
+<br>
 Meeting ID: 174 908 283
 Password: 45229
 
