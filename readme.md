@@ -30,10 +30,12 @@ As per security reasons, we need to register allowed IP addresses for connection
 Our lessons are going to be remote via Zoom. 
 
 Here is URL to join to the lesson
-https://zoom.us/j/174908283?pwd=ME5zZ0N3UlBjUlREakx0Y1ZDM0N1dz09
+
+https://zoom.us/j/361503133?pwd=NGJZanVGQmh1cnR6enRJNmVmeXRjdz09
 <br>
-Meeting ID: 174 908 283
-Password: 45229
+Meeting ID: 361 503 133
+Password: 19341
+
 
 <br>
 Lessons dates: Nov 2, Nov 4, Nov 9
