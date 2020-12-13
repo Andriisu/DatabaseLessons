@@ -7,7 +7,7 @@ where A.Type = 'CHECKING'
 --2
 select distinct C.FirstName, C.LastName, C.Phone, C.Email, C.State, C.Age, A.Balance, A.Type 
 from Bank.Clients C
-	left join Bank.Accounts A
+	join Bank.Accounts A
 	on C.ClientId = A.ClientId 
 where A.Type = 'CHECKING'or A.Type = 'credit'
 --3
