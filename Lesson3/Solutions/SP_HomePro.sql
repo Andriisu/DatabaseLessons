@@ -48,12 +48,11 @@ create procedure HomePro.GetCustomersNoScheduleByDate_Andrey
 	@DateNedeed datetime
 as
 begin
-	select c.CustomerId, c.FirstName, c.LastName, c.Email, c.Phone, c.ZipCode, c.Age
+	select *
 	from HomePro.Customers c
-		left join HomePro.Schedules s
-			on c.CustomerId = s.CustomerId
-	where s.CustomerId is null
-		and s.DateNeeded = @DateNedeed
+	     join HomePro.Schedules s
+		on c.CustomerId = s.CustomerId
+	where s.DateNeeded = @DateNedeed
 end
 go
 
