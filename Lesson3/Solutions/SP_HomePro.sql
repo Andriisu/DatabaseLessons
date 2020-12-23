@@ -52,7 +52,7 @@ begin
 	from HomePro.Customers c
 	     join HomePro.Schedules s
 		on c.CustomerId = s.CustomerId
-	where s.DateNeeded = @DateNedeed
+	where s.DateNeeded > @DateNedeed
 end
 go
 
