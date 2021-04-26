@@ -36,6 +36,12 @@ where ZipCode >= '22200' and ZipCode <= '22300'
 
 select * from HomePro.Customers 
 where ZipCode between '22200' and '22300'
+--11
+select count(*), avg(Age) from HomePro.Customers
+--12
+select count(*), max (Age), min(Age) from HomePro.Customers
+where NewsLetter = 0
+
 
 --Table HomePro.Schedules
 select * from HomePro.Schedules
@@ -52,6 +58,9 @@ where JobType = 'Remodeling'
 select JobType, Count(*) 'Job Counts' 
 from HomePro.Schedules 
 group by JobType
+--5
+select max(DateNeeded), min(DateNeeded) from HomePro.Schedules
+
 
 --Table HomePro.Quotes
 select * from HomePro.Quotes
@@ -61,6 +70,9 @@ where Description like '%Kitchen%'
 --2
 select * from HomePro.Quotes 
 where Estimation > 500
+--3
+select Sum(Estimation), Avg(Estimation) 
+from HomePro.Quotes 
 
 
 
