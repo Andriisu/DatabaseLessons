@@ -52,15 +52,17 @@ select * from Bank.Accounts
 select Balance from Bank.Accounts 
 where Type = 'CREDIT'
 --2
+select * from Bank.Accounts
+where Type = 'checking' and Balance > 2000
+--3
 select Max(Balance) 'Biggest Balance' 
 from Bank.Accounts
---3
-select ClientId, Avg(Balance) 'Average Balance' 
+--4
+select ClientId, Avg(Balance) 
 from Bank.Accounts 
 group by ClientId
-
---4
-select ClientId, Avg(Balance) 'Average Balance', Count(*) 'Number of Accounts' 
+--5
+select ClientId, Avg(Balance), Count(*)
 from Bank.Accounts 
 group by ClientId
 
