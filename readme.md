@@ -30,16 +30,24 @@ As per security reasons, we need to register allowed IP addresses for connection
 Our lessons are going to be remote via Zoom. 
 
 Here is URL to join to the lesson
+<br>
+<b>June group</b> Lessons dates: Jun 01, May 03, Jun 08
+https://zoom.us/j/361503133?pwd=NGJZanVGQmh1cnR6enRJNmVmeXRjdz09
+<br>
+Meeting ID: 361 503 133
+<br>
+Password: 19341
+<br>
 
+<b>May group</b> Lessons dates: May 24, May 26, Jun 02
 https://us02web.zoom.us/j/791997226?pwd=UUtMK1JDME9XTDFkUHpzVE1iS0hGZz09
 <br>
 Meeting ID: 791 997 226
 <br>
 Passcode: 64781
+<br>
 
-<br>
-Lessons dates: May 24, May 26, Jun 02
-<br>
+
 It is higly recomended to try to connect to the meeting in advance in order to download and install Zoom software and verify that you are able to connect to the meeting.
 
 
