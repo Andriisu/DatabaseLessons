@@ -28,6 +28,18 @@ begin
 end
 go
 --task 4
+create procedure HomePro.GetSchedulesByDate_Andrey
+	@DateNedeed date
+as
+begin
+	select *
+	from HomePro.Customers c
+	     join HomePro.Schedules s
+		on c.CustomerId = s.CustomerId
+	where s.DateNeeded > @DateNedeed
+end
+go
+--task 5
 create procedure HomePro.GetCustomerByAge_Andrey
 	@age int 
 as
@@ -44,10 +56,16 @@ begin
 end
 go 
 --Task 5
-create procedure HomePro.GetCustomersNoScheduleByDate_Andrey
-	@DateNedeed datetime
+create procedure HomePro.GetSchedulesByDate_Andrey
+	@DateNedeed date
 as
 begin
+	if ( @DateNedeed < '2010-01-01'  or @DateNedeed > '2020-01-01')
+	begin
+		raiserror('parameter @DateNedeed is incorrect',16,10)
+		return 
+	end
+
 	select *
 	from HomePro.Customers c
 	     join HomePro.Schedules s
