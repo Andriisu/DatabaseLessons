@@ -31,13 +31,13 @@ Our lessons are going to be remote via Zoom.
 
 Here is URL to join to the lesson
 <br>
-<b>June group</b> Lessons dates: Jun 01, Jun 03, Jun 08
+<b>June group</b> Lessons dates: Sep 13, Sep 15, Sep 20
 <br>
-https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
+https://us02web.zoom.us/j/174908283?pwd=NTNHL0hIWEpFQ0RGQ3FQZ2FpMzRXQT09
 <br>
-Meeting ID: 361 503 133
+Meeting ID: 174 908 283
 <br>
-Password: 530267
+Password:  572198
 <br>
 
 
