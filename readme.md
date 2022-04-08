@@ -18,7 +18,7 @@ Please download and install SQL client software
 ## Connection to database from home 
 As per security reasons, we need to register allowed IP addresses for connection.
 
-- As soon as you got home please navigate to URL: http://www.myipaddress.com/show-my-ip-address/ 
+- As soon as you got home please navigate to URL: https://whatismyipaddress.com/
 - You will see 4 numbers separated by dots. For instance: 72.201.23.56 
 - Send this IP Address to via email andrew.a4100@gmail.com. 
 - As soon as I added your IP address to the whitelist I will respond you.
@@ -31,7 +31,7 @@ Our lessons are going to be remote via Zoom.
 
 Here is URL to join to the lesson
 <br>
-<b>June group</b> Lessons dates: Mar 15, Mar 17, Mar 22
+<b>June group</b> Lessons dates: Apr 12, Apr 19, Apr 21
 <br>
 https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
 <br>
