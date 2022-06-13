@@ -56,13 +56,13 @@ where Description like '%kitchen%'
 
 --Table HomePro.Quotes
 
---15
+--1
 select * from HomePro.Quotes 
 where Description like '%Kitchen%'
---16
+--2
 select * from HomePro.Quotes 
 where Estimation > 500
---17
+--3
 select * from HomePro.Quotes
 where Description like '%discount%'
 

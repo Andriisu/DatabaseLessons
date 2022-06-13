@@ -45,7 +45,7 @@ It is higly recomended to try to connect to the meeting in advance in order to d
 We are going to have 3 lessons so documentation you will be able to find via following link
 ### [Lesson 1](./Lesson1)
 - [The lesson material](./Lesson1/Database-1.pdf)
-- [Sample database HomePro](./Lesson1/HomePro%20Example.pdf)
+- [Sample database HomePro](./Lesson1/Schema%20HomePro.pdf)
 - [Sample database Bank](./Lesson1/Bank%20Example.pdf)
 
 ### [Lesson 2](./Lesson2)
