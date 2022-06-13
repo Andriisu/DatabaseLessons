@@ -46,7 +46,7 @@ We are going to have 3 lessons so documentation you will be able to find via fol
 ### [Lesson 1](./Lesson1)
 - [The lesson material](./Lesson1/Database-1.pdf)
 - [Sample database HomePro](./Lesson1/Schema%20HomePro.pdf)
-- [Sample database Bank](./Lesson1/Bank%20Example.pdf)
+- [Sample database Bank](./Lesson1/Schema%20Bank.pdf)
 
 ### [Lesson 2](./Lesson2)
 - [The lesson material](./Lesson2/Joins.pdf)

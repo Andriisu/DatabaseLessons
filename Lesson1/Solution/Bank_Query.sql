@@ -34,54 +34,29 @@ where Age < 20
 select * from Bank.Clients 
 where Age between 20 and 40
 --10
-select min(Age), Avg(Age)
-from Bank.Clients
---11
-select Avg(Age), count(*)
-from Bank.Clients 
-where Type = 'Private'
---12
-select Max(Age) 
-from Bank.Clients
-where State != 'NJ'
+select * from Bank.Clients
+where Type = 'Private' and Age >30
 
 
 --Table Bank.Accounts
 select * from Bank.Accounts
---1
+--11
 select Balance from Bank.Accounts 
 where Type = 'CREDIT'
---2
+--12
 select * from Bank.Accounts
 where Type = 'checking' and Balance > 2000
---3
-select Max(Balance) 'Biggest Balance' 
-from Bank.Accounts
---4
-select ClientId, Avg(Balance) 
-from Bank.Accounts 
-group by ClientId
---5
-select ClientId, Avg(Balance), Count(*)
-from Bank.Accounts 
-group by ClientId
+
 
 --Table Bank.Transactions
 select * from Bank.Transactions
---1
+--13
 select * from Bank.Transactions 
 where Status = 'Pending'
---2
+--14
 select * from Bank.Transactions 
 where Status = 'Commited' and TransactionTime > '2016-01-01'
---3
+--15
 select * 
 from Bank.Transactions 
 where TransactionTime  between '2016-01-01' and '2016-12-31'
---4
-select Avg(Amount) as AverageNumberOfTransactions
-from Bank.Transactions
---5
-select AccountNumFrom, Count(*), Avg(Amount) as AverageNumberOfTransactions
-from Bank.Transactions
-group by AccountNumFrom
