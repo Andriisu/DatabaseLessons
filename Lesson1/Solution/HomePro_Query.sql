@@ -47,7 +47,7 @@ where DateNeeded >'2016-01-01'
 select * from HomePro.Schedules
 where DateNeeded between '2013-01-01' and '2013-12-31'
 --13
-select count(*) from HomePro.Schedules 
+select * from HomePro.Schedules 
 where JobType = 'Remodeling'
 --14
 select * from HomePro.Schedules
