@@ -49,8 +49,8 @@ We are going to have 3 lessons so documentation you will be able to find via fol
 - [Sample database Bank](./Lesson1/Schema%20Bank.pdf)
 
 ### [Lesson 2](./Lesson2)
-- [The lesson material](./Lesson2/Joins.pdf)
-- [The lesson assigments](./Lesson2/SQL%20Join%20tasks.pdf)
+- [The lesson material](./Lesson2/Database_Part2.pdf)
+- [The lesson assigments](./Lesson2/Lesson%202%20tasks.pdf)
 - [SQL Joins Reference](./Lesson2/Visual_SQL_JOINS_orig.jpg)
 - [The nested queries](./Lesson2/Nested%20queries.pdf)
 
