@@ -42,5 +42,5 @@ You should see picture like this.
 ![./docs/ADS_RunQuery.png](./docs/ADS_RunQuery.png)
 
 Congratulations! You have successfully connected to Database, executed SQL query and can proceed with SQL assignments. 
-- [Sample database HomePro](./Lesson1/HomePro%20Example.pdf)
-- [Sample database Bank](./Lesson1/Bank%20Example.pdf)
+- [Database Schema HomePro](./Lesson1/Schema%20HomePro.pdf)
+- [Database Schema Bank](./Lesson1/Schema%20Bank.pdf)
