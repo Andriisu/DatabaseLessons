@@ -1,8 +1,11 @@
 --HomePro.Customers
 --1
-
+SELECT COUNT(*), AVG (Age)
+FROM Homepro.Customers;
 --2
-
+SELECT COUNT(*), MAX(Age), MIN(Age)
+FROM Homepro.Customers
+WHERE NewsLetter = 0;
 
 --HomePro.Schedules 
 --3

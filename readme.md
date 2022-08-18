@@ -31,9 +31,9 @@ Our lessons are going to be remote via Zoom.
 
 Here is URL to join to the lesson
 <br>
-<b>June group</b> Lessons dates: Jun 13, Jun 15, Jun 20
+<b>June group</b> Lessons dates: Aug 16, Aug 18, Aug 23
 <br>
-https://us02web.zoom.us/j/174908283?pwd=NTNHL0hIWEpFQ0RGQ3FQZ2FpMzRXQT09
+https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
 <br>
 
 

@@ -99,9 +99,9 @@ where A.Type = 'CHECKING'or A.Type = 'credit'
 --14
 select C.FirstName, C.LastName, C.Phone, C.Email, C.State, C.Age, Acr.Balance, Acr.Type, Ach.Balance, Ach.Type 
 from Bank.Clients C
-	left join Bank.Accounts Acr
+	join Bank.Accounts Acr
 	on C.ClientId = Acr.ClientId 
-	left join Bank.Accounts Ach
+	join Bank.Accounts Ach
 	on C.ClientId = Ach.ClientId 
 where Ach.Type = 'CHECKING' 
 	and Acr.Type = 'CREDIT'
