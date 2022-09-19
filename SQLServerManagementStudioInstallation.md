@@ -26,6 +26,16 @@ Push the button “Connect”.
 
 ![./docs/SSMS_Login2.png](./docs/SSMS_Login2.png)
 
+
+## Possible Firewall connection issue.
+If you see the message like at the picture below, then you have your IP address blocked by security firewall. 
+- Send "My IP address" to via email andrew.a4100@gmail.com. (4 numbers separated by dots).
+- As soon as I added your IP address to the whitelist I will respond you.
+- After that you will be able to connect to database from home.
+
+![./docs/Firewall.png](./docs/Firewall.png)
+
+
 # Execute SQL queries
 
 Having successful login you must see picture like below. You can see “Object Explorer” which shows Database main and at least 6 tables: 

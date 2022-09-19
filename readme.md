@@ -15,25 +15,15 @@ Please download and install SQL client software
 - If you have <b>MacOS</b> then install <b>Azure Data Studio</b> following [ADS Instruction](AzureDataStudio.md)
 
 
-## Connection to database from home 
-As per security reasons, we need to register allowed IP addresses for connection.
-
-- As soon as you got home please navigate to URL: https://whatismyipaddress.com/
-- You will see 4 numbers separated by dots. For instance: 72.201.23.56 
-- Send this IP Address to via email andrew.a4100@gmail.com. 
-- As soon as I added your IP address to the whitelist I will respond you.
-- After that you will be able to connect to database from home.
-
-
 # Lessons and materials
 
 Our lessons are going to be remote via Zoom. 
 
 Here is URL to join to the lesson
 <br>
-<b>June group</b> Lessons dates: Aug 16, Aug 18, Aug 23
+<b>June group</b> Lessons dates: Sep 19, Sep 21, Sep 26
 <br>
-https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
+https://us02web.zoom.us/j/174908283?pwd=NTNHL0hIWEpFQ0RGQ3FQZ2FpMzRXQT09
 <br>
 
 
