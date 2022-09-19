@@ -27,6 +27,15 @@ Please fill the fields as depicted at picture below.
 Push the button <b>“Connect”</b>.
 ![./docs/ADS_Login.png](./docs/ADS_Login.png)
 
+## Possible Firewall connection issue.
+If you see the message like at the picture below, then you have your IP address blocked by security firewall. 
+- Send "My IP address" to via email andrew.a4100@gmail.com. (4 numbers separated by dots).
+- As soon as I added your IP address to the whitelist I will respond you.
+- After that you will be able to connect to database.
+
+![./docs/Firewall.png](./docs/Firewall.png)
+
+
 # Execute SQL queries.
 Having successful login you must see picture like below. Push the button “New query”.
 
