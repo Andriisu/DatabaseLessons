@@ -21,9 +21,9 @@ Our lessons are going to be remote via Zoom.
 
 Here is URL to join to the lesson
 <br>
-<b>June group</b> Lessons dates: Dec 06, Dec 08, Dec 13
+<b>June group</b> Lessons dates: Jan 05, Jan 10, Jan 12, Jan 17
 <br>
-https://us02web.zoom.us/j/791997226?pwd=cHFNZEdwZlphWVVBemR6UEJyRFo1QT09
+https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
 <br>
 
 
@@ -43,7 +43,6 @@ We are going to have 3 lessons so documentation you will be able to find via fol
 - [Assigments Schema HomePro](./Lesson2/Lesson%202%20HomePro%20Assigment.pdf)
 - [Assigments Schema Bank](./Lesson2/Lesson%202%20Bank%20Assigment.pdf)
 - [SQL Joins Reference](./Lesson2/Visual_SQL_JOINS_orig.jpg)
-- [The nested queries](./Lesson2/Nested%20queries.pdf)
 
 ### [Lesson 3](./Lesson3)
 - [The lesson material](./Lesson3/StoredProcedures.pdf)
