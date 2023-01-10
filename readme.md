@@ -34,7 +34,7 @@ It is higly recomended to try to connect to the meeting in advance in order to d
 ## Documentation
 We are going to have 3 lessons so documentation you will be able to find via following link
 ### [Lesson 1](./Lesson1)
-- [The lesson material](./Lesson1/Database-1.pdf)
+- [The lesson material](./Lesson1/Lesson%201%20Database.pdf)
 - [Assigments Schema HomePro](./Lesson1/Schema%20HomePro.pdf)
 - [Assigments Schema Bank](./Lesson1/Schema%20Bank.pdf)
 
