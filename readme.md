@@ -46,8 +46,8 @@ We are going to have 3 lessons so documentation you will be able to find via fol
 
 ### [Lesson 3](./Lesson3)
 - [The lesson material](./Lesson3/Lesson%203%20Subqueries.pdf)
-- [Assigments Schema HomePro](./Lesson3/Lesson%202%20HomePro%20Assigment.pdf)
-- [Assigments Schema Bank](./Lesson3/Lesson%202%20Bank%20Assigment.pdf)
+- [Assigments Schema HomePro](./Lesson3/Lesson%203%20HomePro%20Assigment.pdf)
+- [Assigments Schema Bank](./Lesson3/Lesson%203%20Bank%20Assigment.pdf)
 
 ### [Lesson 4](./Lesson4)
 - [The lesson material](./Lesson4/StoredProcedures.pdf)
