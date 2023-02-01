@@ -21,12 +21,10 @@ Our lessons are going to be remote via Zoom.
 
 Here is URL to join to the lesson
 <br>
-<b>June group</b> Lessons dates: Jan 05, Jan 10, Jan 12, Jan 17
+<b>June group</b> Lessons dates: Feb 01, Feb 06, Feb 08, Feb 13
 <br>
-https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
+https://us02web.zoom.us/j/791997226?pwd=cHFNZEdwZlphWVVBemR6UEJyRFo1QT09
 <br>
-
-
 
 It is higly recomended to try to connect to the meeting in advance in order to download and install Zoom software and verify that you are able to connect to the meeting.
 
