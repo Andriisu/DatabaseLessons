@@ -7,7 +7,7 @@ where age >
 --2
 select * from Bank.Clients
 where age >
-	(select min(age) from HomePro.Customers)
+	(select avg(age) from HomePro.Customers)
  and Type ='Business'
 
 --3
