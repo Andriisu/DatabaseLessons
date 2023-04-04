@@ -15,14 +15,14 @@ where State != 'NJ'
 
 --Table Bank.Accounts
 --4
-select Max(Balance) 'Biggest Balance' 
+select Max(Balance) as Biggest_Balance 
 from Bank.Accounts
 --5
-select ClientId, Avg(Balance) 'Average Balance' 
+select ClientId, Avg(Balance) as Average_Balance 
 from Bank.Accounts 
 group by ClientId
 --6
-select ClientId, Avg(Balance) 'Average Balance', Count(*) 'Number of Accounts' 
+select ClientId, Avg(Balance) as Average_Balance, Count(*) as Number_of_Accounts 
 from Bank.Accounts 
 group by ClientId
 
@@ -125,3 +125,9 @@ from Bank.Transactions T
 	join Bank.Clients Cto
 		on Ato.ClientId = Cto.ClientId
 
+
+
+
+spak pug plug  289
+Coolee falsh  2 69 
+Engine belt 239
