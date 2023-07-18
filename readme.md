@@ -24,8 +24,13 @@ Here is URL to join to the lesson
 
 <b>Group 2304</b> Lessons dates: Jun 28, Jul 03, Jul 05, Jul 10
 <br>
-https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
+<b>Group 2305</b> Lessons dates: Jul 18, Jul 20, Jul 25, Jul 27
 <br>
+https://us02web.zoom.us/j/791997226?pwd=cHFNZEdwZlphWVVBemR6UEJyRFo1QT09 
+<br>
+Meeting ID: 791 997 226
+Passcode: 530865
+
 
 It is higly recomended to try to connect to the meeting in advance in order to download and install Zoom software and verify that you are able to connect to the meeting.
 
