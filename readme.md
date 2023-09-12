@@ -19,7 +19,7 @@ Our lessons are going to be remote via Zoom.
 
 Here is URL to join to the lesson
 <br>
-<b>Group 2307</b> Lessons dates: Sep 07, Sep 12, Sep 14, Sep 12
+<b>Group 2307</b> Lessons dates: Sep 07, Sep 12, Sep 14, Sep 19
 <br>
 Zoom link:
 https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
@@ -31,7 +31,7 @@ Zoom link:
 https://us02web.zoom.us/j/174908283?pwd=NTNHL0hIWEpFQ0RGQ3FQZ2FpMzRXQT09
 <br>
 
-
+<br>
 It is higly recomended to try to connect to the meeting in advance in order to download and install Zoom software and verify that you are able to connect to the meeting.
 
 
