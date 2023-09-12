@@ -19,17 +19,17 @@ Our lessons are going to be remote via Zoom.
 
 Here is URL to join to the lesson
 <br>
-<b>Group 2303</b> Lessons dates: Jun 15, Jun 20, Jun 22, Jun 27
+<b>Group 2307</b> Lessons dates: Sep 07, Sep 12, Sep 14, Sep 12
 <br>
+Zoom link:
+https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
 
-<b>Group 2304</b> Lessons dates: Jun 28, Jul 03, Jul 05, Jul 10
 <br>
-<b>Group 2305</b> Lessons dates: Jul 18, Jul 20, Jul 25, Jul 27
+<b>Group 2306</b> Lessons dates: Sep 18, Sep 20, Sep 25, Sep 27
 <br>
-https://us02web.zoom.us/j/791997226?pwd=cHFNZEdwZlphWVVBemR6UEJyRFo1QT09 
+Zoom link:
+https://us02web.zoom.us/j/174908283?pwd=NTNHL0hIWEpFQ0RGQ3FQZ2FpMzRXQT09
 <br>
-Meeting ID: 791 997 226
-Passcode: 530865
 
 
 It is higly recomended to try to connect to the meeting in advance in order to download and install Zoom software and verify that you are able to connect to the meeting.
