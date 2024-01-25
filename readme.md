@@ -19,25 +19,19 @@ Our lessons are going to be remote via Zoom.
 
 Here is URL to join to the lesson
 <br>
-<b>Group 2308</b> Lessons dates: Nov 06, Nov 08, Nov 15, Nov 20
+<b>Group 2310</b> Lessons dates: Jan 17, Jan 22, Jan 24 Jan 29
+<br>
+Zoom link:
+https://us02web.zoom.us/j/791997226?pwd=cHFNZEdwZlphWVVBemR6UEJyRFo1QT09
+<br>
+
+<b>Group 2311</b> Lessons dates: Jan 25, Jan 30, Feb 01, Feb 06
 <br>
 Zoom link:
 https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
-
 <br>
-<b>Group 2309</b> Lessons dates: Nov 28, Nov 30, Dec 05, Dec 07
-<br>
-Zoom link:
-https://us02web.zoom.us/j/791997226?pwd=cHFNZEdwZlphWVVBemR6UEJyRFo1QT09
-
-<br>
-<b>Group 2310</b> Lessons dates: Jan 8, Jan 11, Jan 16 Jan 18
-<br>
-Zoom link:
-https://us02web.zoom.us/j/791997226?pwd=cHFNZEdwZlphWVVBemR6UEJyRFo1QT09
 
 
-<br>
 
 <br>
 It is higly recomended to try to connect to the meeting in advance in order to download and install Zoom software and verify that you are able to connect to the meeting.
