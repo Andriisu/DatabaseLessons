@@ -19,16 +19,17 @@ Our lessons are going to be remote via Zoom.
 
 Here is URL to join to the lesson
 <br>
-<b>Group 2310</b> Lessons dates: Jan 17, Jan 22, Jan 24 Jan 29
+<b>Group 2401</b> Lessons dates: Mar 19, Mar 21, Mar 26, Mar 28
 <br>
 Zoom link:
 https://us02web.zoom.us/j/791997226?pwd=cHFNZEdwZlphWVVBemR6UEJyRFo1QT09
 <br>
 
-<b>Group 2311</b> Lessons dates: Jan 25, Jan 30, Feb 01, Feb 06
+<b>Group 2402</b> Lessons dates: Apr 24, Apr 29, May 01, May 06
 <br>
 Zoom link:
 https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
+
 <br>
 
 
