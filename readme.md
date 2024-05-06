@@ -25,11 +25,10 @@ Zoom link:
 https://us02web.zoom.us/j/791997226?pwd=cHFNZEdwZlphWVVBemR6UEJyRFo1QT09
 <br>
 
-<b>Group 2402</b> Lessons dates: Apr 24, Apr 29, May 01, May 06
+<b>Group 2402</b> Lessons dates: May 06, May 08, May 13, May 15
 <br>
 Zoom link:
 https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
-
 <br>
 
 
