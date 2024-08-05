@@ -19,10 +19,10 @@ Our lessons are going to be remote via Zoom.
 
 Here is URL to join to the lesson
 <br>
-<b>Group 2404</b> Lessons dates: Jul 11, Jul 16, Jul 18, Jul 23
+<b>Group 2406</b> Lessons dates: Aug 20, Aug 22, Aug 27, Aug 29
 <br>
 Zoom link:
-https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
+https://us06web.zoom.us/j/94608210115
 <br>
 
 
