@@ -20,12 +20,16 @@ Our lessons are going to be remote via Zoom.
 Here is URL to join to the lesson
 <br>
 
-<b>Group 2407</b> Lessons dates: Oct 2, Oct 7, Oct 9, Oct 16
+<b>Group 2407</b> Lesson dates: Oct 2, Oct 7, Oct 9, Oct 16
 <br>
 Zoom link:
 https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
 <br>
 
+<b>Group 2408</b> Lesson dates: Oct 29, Nov 5, Nov 19, Nov 21
+<br>
+Zoom link:
+https://us02web.zoom.us/j/791997226?pwd=cHFNZEdwZlphWVVBemR6UEJyRFo1QT09 
 
 <br>
 It is higly recomended to try to connect to the meeting in advance in order to download and install Zoom software and verify that you are able to connect to the meeting.
