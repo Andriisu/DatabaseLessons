@@ -39,7 +39,7 @@ It is higly recomended to try to connect to the meeting in advance in order to d
 The lesson documentation is available via following links:
 ### [Lesson 1](./Lesson1)
 - [The presentation slides](./Lesson1/Lesson%201%20Database.pdf)
-- [Assigments Schema HomePro](./Lesson1/Schema%20HomePro.pdf)
+- [Assigments Schema HomePro](Assigment_Lesson_1.md)
 - [Assigments Schema Bank](./Lesson1/Schema%20Bank.pdf)
 
 ### [Lesson 2](./Lesson2)
