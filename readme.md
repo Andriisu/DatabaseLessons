@@ -43,17 +43,17 @@ The lesson documentation is available via following links:
 - [Assigments Schema Bank](./Lesson1/Schema%20Bank.pdf)
 
 ### [Lesson 2](./Lesson2)
-- [The presentation slides]](./Lesson2/Lesson%202%20Join.pdf)
+- [The presentation slides](./Lesson2/Lesson%202%20Join.pdf)
 - [Assigments Schema HomePro](./Lesson2/Lesson%202%20HomePro%20Assigment.pdf)
 - [Assigments Schema Bank](./Lesson2/Lesson%202%20Bank%20Assigment.pdf)
 - [SQL Joins Reference](./Lesson2/Visual_SQL_JOINS_orig.jpg)
 
 ### [Lesson 3](./Lesson3)
-- [The presentation slides]](./Lesson3/Lesson%203%20Subqueries.pdf)
+- [The presentation slides](./Lesson3/Lesson%203%20Subqueries.pdf)
 - [Assigments Schema HomePro](./Lesson3/Lesson%203%20HomePro%20Assigment.pdf)
 - [Assigments Schema Bank](./Lesson3/Lesson%203%20Bank%20Assigment.pdf)
 
 ### [Lesson 4](./Lesson4)
-- [The presentation slides]](./Lesson4/StoredProcedures.pdf)
+- [The presentation slides](./Lesson4/StoredProcedures.pdf)
 - [The lesson assigments](./Lesson4/SP_Tasks.pdf)
 
