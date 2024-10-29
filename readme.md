@@ -36,24 +36,24 @@ It is higly recomended to try to connect to the meeting in advance in order to d
 
 
 ## Documentation
-We are going to have 3 lessons so documentation you will be able to find via following link
+The lesson documentation is available via following links:
 ### [Lesson 1](./Lesson1)
-- [The lesson material](./Lesson1/Lesson%201%20Database.pdf)
+- [The presentation slides](./Lesson1/Lesson%201%20Database.pdf)
 - [Assigments Schema HomePro](./Lesson1/Schema%20HomePro.pdf)
 - [Assigments Schema Bank](./Lesson1/Schema%20Bank.pdf)
 
 ### [Lesson 2](./Lesson2)
-- [The lesson material](./Lesson2/Lesson%202%20Join.pdf)
+- [The presentation slides]](./Lesson2/Lesson%202%20Join.pdf)
 - [Assigments Schema HomePro](./Lesson2/Lesson%202%20HomePro%20Assigment.pdf)
 - [Assigments Schema Bank](./Lesson2/Lesson%202%20Bank%20Assigment.pdf)
 - [SQL Joins Reference](./Lesson2/Visual_SQL_JOINS_orig.jpg)
 
 ### [Lesson 3](./Lesson3)
-- [The lesson material](./Lesson3/Lesson%203%20Subqueries.pdf)
+- [The presentation slides]](./Lesson3/Lesson%203%20Subqueries.pdf)
 - [Assigments Schema HomePro](./Lesson3/Lesson%203%20HomePro%20Assigment.pdf)
 - [Assigments Schema Bank](./Lesson3/Lesson%203%20Bank%20Assigment.pdf)
 
 ### [Lesson 4](./Lesson4)
-- [The lesson material](./Lesson4/StoredProcedures.pdf)
+- [The presentation slides]](./Lesson4/StoredProcedures.pdf)
 - [The lesson assigments](./Lesson4/SP_Tasks.pdf)
 
