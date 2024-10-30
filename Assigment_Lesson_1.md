@@ -22,3 +22,5 @@
 15.	Find all Quotes for 'Kitchen'.
 16.	Find all Quotes bigger than $500.
 17.	Find Quotes where Description contains word ‘discount’.
+
+Send your homework to email <b>Andrew.a4100@gmail.com<b> for validation
