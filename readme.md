@@ -26,7 +26,7 @@ Zoom link:
 https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
 <br>
 
-<b>Group 2408</b> Lesson dates: Oct 29, Nov 5, Nov 19, Nov 21
+<b>Group 2408</b> Lesson dates: Oct 29, Oct 31, Nov 5, Nov 7
 <br>
 Zoom link:
 https://us02web.zoom.us/j/791997226?pwd=cHFNZEdwZlphWVVBemR6UEJyRFo1QT09 
