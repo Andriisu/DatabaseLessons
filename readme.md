@@ -43,8 +43,7 @@ The lesson documentation is available via following links:
 
 ### [Lesson 3](./Lesson3)
 - [The slides](./Lesson3/Lesson%203%20Subqueries.pdf)
-- [Assigments HomePro](./Lesson3/Assigment_Lesson_3_HomePro.md)
-- [Assigments Bank](./Lesson3/Lesson%203%20Bank%20Assigment.pdf)
+- [Assigments](./Lesson3/Assigment_Lesson_3.md)
 
 ### [Lesson 4](./Lesson4)
 - [The presentation slides](./Lesson4/StoredProcedures.pdf)

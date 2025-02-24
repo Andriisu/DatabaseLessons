@@ -1,5 +1,6 @@
 # Assigments: Lesson 1
-	Send your homework to email <b>Andrew.a4100@gmail.com<b> for validation
+
+Send your homework to email <b>Andrew.a4100@gmail.com<b> for validation
 
 
 ## Schema HomePro
