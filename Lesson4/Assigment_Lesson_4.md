@@ -15,9 +15,9 @@ Execute and validate result:
 	
 2. Create the procedure to get list of customers without schedules. 
 <br>
-Name: HomePro.GetCustomersNoSchedule_&lt;YourName&gt;
+Name: <b>HomePro.GetCustomersNoSchedule_&lt;YourName&gt;</b>
 <br>
-List of columns: CustomerId,FirstName,LastName,Email,Phone,ZipCode,Age
+List of columns: <b>CustomerId,FirstName,LastName,Email,Phone,ZipCode,Age</b>
 <br>
 Execute and validate result: 
 
@@ -27,11 +27,11 @@ Execute and validate result:
 	
 3. Create procedure to get list of customers who is older than given age.
 <br>
-Name: HomePro.GetCustomersByAge_&lt;YourName&gt;
+Name: <b>HomePro.GetCustomersByAge_&lt;YourName&gt;</b>
 <br>
-Parameter: @Age int
+Parameter: <b>@Age int</b>
 <br>
-List of columns: CustomerId,FirstName,LastName,Email,Phone,ZipCode, Age
+List of columns: <b>CustomerId,FirstName,LastName,Email,Phone,ZipCode, Age</b>
 <br>
 Execute SP with 3 different Age values and validate result: 
 
@@ -42,11 +42,11 @@ Execute SP with 3 different Age values and validate result:
 ```
 4. Create procedure to get list of customers that have schedules after the given date:
 <br>
-Name: HomePro.GetSchedulesByDate_<YourName>
+Name: <b>HomePro.GetSchedulesByDate_&lt;YourName&gt;</b>
 <br>
-Parameter: @DateNedeed date
+Parameter: <b>@DateNedeed date</b>
 <br>
-List of columns: CustomerId,FirstName,LastName,Email,Phone,ZipCode,Age
+List of columns: <b>CustomerId,FirstName,LastName,Email,Phone,ZipCode,Age</b>
 <br>
 Call the SP with 3 different parameters on order the test data validation and compare the result
 
@@ -55,7 +55,7 @@ Call the SP with 3 different parameters on order the test data validation and co
 	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2012-10-21’
 	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2015-10-01’
 ```
-5. Add validation to stored procedure HomePro.GetCustomersByAge_<YourName> that 
+5. Add validation to stored procedure <b>HomePro.GetCustomersByAge_&lt;YourName&gt;</b> that 
 parameter @Age contains Proper value. Call the SP with 3 different parameters:
 
 ```sql
@@ -63,16 +63,16 @@ parameter @Age contains Proper value. Call the SP with 3 different parameters:
 	EXEC HomePro.GetCustomersByAge_<Name> @Age = 20
 	EXEC HomePro.GetCustomersByAge_<Name> @Age = 200
 ```
-6. Add validation to procedure HomePro.GetSchedulesByDate_<YourName>
+6. Add validation to procedure <b>HomePro.GetSchedulesByDate_&lt;YourName&gt;<b>
 The procedure must verify that parameter is in allowed range. 
 <br>Say between ‘2010-01-01’ and ‘2020-01-10’.
 
 Call the SP with 3 different parameters on order the test data validation and compare the result
 
 ```sql
-EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2000-12-31’
-EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2012-10-21’
-EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2015-10-01
+	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2000-12-31’
+	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2012-10-21’
+	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2015-10-01
 ```
 
 
@@ -81,15 +81,15 @@ EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2015-10-01
 ### Stored procedures
 
 1. Create and test the procedure to get list of all clients. 
-Name: Bank.GetAllClients_<YourName>
+Name: Bank.GetAllClients_<YourName&gt;
 List of columns: ClientId,FirstName,LastName,Phone,Email,State,Age,Type
 Execute and validate result: 
-Exec Bank.GetAllClients_<YourName>
+Exec Bank.GetAllClients_<YourName&gt;
 2. Create and test procedure to get list of customers without Account. 
-Name: Bank.GetClientsNoAccount_<YourName>
+Name: Bank.GetClientsNoAccount_<YourName&gt;
 List of columns: ClientId,FirstName,LastName,Phone,Email,State,Age,Type
 3. Create the procedure to get list of customers who is in given range of age. 
-Name: Bank.GetClientsByAge_<YourName>
+Name: Bank.GetClientsByAge_<YourName&gt;
 Parameters: @AgeBegin int, @AgeEnd int
 Call the SP with 3 different parameters:
 a. EXEC HomePro.GetCustomersByAge_<Name> @AgeBegin = 0, @AgeEnd = 50 
