@@ -33,7 +33,7 @@ Parameter: <b>@Age int</b>
 <br>
 List of columns: <b>CustomerId,FirstName,LastName,Email,Phone,ZipCode, Age</b>
 <br>
-Execute SP with 3 different Age values and validate result: 
+Execute procedure with 3 different Age values and validate result: 
 
 ```sql
 	EXEC HomePro.GetCustomersByAge_<Name> @Age = 0
@@ -48,15 +48,14 @@ Parameter: <b>@DateNedeed date</b>
 <br>
 List of columns: <b>CustomerId,FirstName,LastName,Email,Phone,ZipCode,Age</b>
 <br>
-Call the SP with 3 different parameters on order the test data validation and compare the result
+Call the procedure with 3 different parameters on order the test data validation and compare the result
 
 ```sql
-	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2000-12-31’
-	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2012-10-21’
-	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2015-10-01’
+	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = '2000-12-31'
+	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = '2012-10-21'
+	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = '2015-10-01'
 ```
-5. Add validation to stored procedure <b>HomePro.GetCustomersByAge_&lt;YourName&gt;</b> that 
-parameter @Age contains Proper value. Call the SP with 3 different parameters:
+5. Add validation to stored procedure <b>HomePro.GetCustomersByAge_&lt;YourName&gt;</b> to verify parameter @Age contain the proper value between 10 and 100. Call the SP with 3 different parameters:
 
 ```sql
 	EXEC HomePro.GetCustomersByAge_<Name> @Age = 0
@@ -64,8 +63,7 @@ parameter @Age contains Proper value. Call the SP with 3 different parameters:
 	EXEC HomePro.GetCustomersByAge_<Name> @Age = 200
 ```
 6. Add validation to procedure <b>HomePro.GetSchedulesByDate_&lt;YourName&gt;<b>
-The procedure must verify that parameter is in allowed range. 
-<br>Say between ‘2010-01-01’ and ‘2020-01-10’.
+The procedure must verify that parameter is in range between '2010-01-01' and '2020-01-10'
 
 Call the SP with 3 different parameters on order the test data validation and compare the result
 
@@ -84,7 +82,10 @@ Call the SP with 3 different parameters on order the test data validation and co
 Name: Bank.GetAllClients_<YourName&gt;
 List of columns: ClientId,FirstName,LastName,Phone,Email,State,Age,Type
 Execute and validate result: 
-Exec Bank.GetAllClients_<YourName&gt;
+
+```sql
+	Exec Bank.GetAllClients_<YourName&gt;
+```
 2. Create and test procedure to get list of customers without Account. 
 Name: Bank.GetClientsNoAccount_<YourName&gt;
 List of columns: ClientId,FirstName,LastName,Phone,Email,State,Age,Type
@@ -92,19 +93,32 @@ List of columns: ClientId,FirstName,LastName,Phone,Email,State,Age,Type
 Name: Bank.GetClientsByAge_<YourName&gt;
 Parameters: @AgeBegin int, @AgeEnd int
 Call the SP with 3 different parameters:
-a. EXEC HomePro.GetCustomersByAge_<Name> @AgeBegin = 0, @AgeEnd = 50 
-b. EXEC HomePro.GetCustomersByAge_<Name> @AgeBegin = 20, @AgeEnd = 50 
-c. EXEC HomePro.GetCustomersByAge_<Name> @AgeBegin = 50, @AgeEnd = 40 
+
+```sql
+	EXEC HomePro.GetCustomersByAge_<Name> @AgeBegin = 0, @AgeEnd = 50 
+	EXEC HomePro.GetCustomersByAge_<Name> @AgeBegin = 20, @AgeEnd = 50 
+	EXEC HomePro.GetCustomersByAge_<Name> @AgeBegin = 50, @AgeEnd = 40 
+```
 4. Add parameter verification to the procedure. Bank.GetClientsByAge_<YourName>.
 The parameters @AgeBegin and @AgeEnd must be in the allowed range, which is between 18 
 and 100 and that @AgeBegin > @AgeEnd
 Call the SP with 3 different parameters:
-a. EXEC HomePro.GetCustomersByAge_<Name> @AgeBegin = 0, @AgeEnd = 50 
-b. EXEC HomePro.GetCustomersByAge_<Name> @AgeBegin = 20, @AgeEnd = 50 
-c. EXEC HomePro.GetCustomersByAge_<Name> @AgeBegin = 50, @AgeEnd = 40 
+
+```sql
+	EXEC HomePro.GetCustomersByAge_<Name> @AgeBegin = 0, @AgeEnd = 50 
+	EXEC HomePro.GetCustomersByAge_<Name> @AgeBegin = 20, @AgeEnd = 50 
+	EXEC HomePro.GetCustomersByAge_<Name> @AgeBegin = 50, @AgeEnd = 40 
+```
 5. Create procedure to get list of clients with given account type:
 Name: Bank.GetClientsWithAccount_<YourName>
 Parameter: @AccountType CHAR(10)
 Account Type must be one of: “CHECKING”, “CREDIT”, “SAVING”. 
 The procedure must verify the parameter value. 
-List of columns: ClientId,FirstName,LastName,Phone,Email,State,Age,Typ
+List of columns: ClientId,FirstName,LastName,Phone,Email,State,Age,Type
+
+```sql
+	EXEC Bank.GetClientsWithAccount_<YourName> @AccountType = 'CHECKING'
+	EXEC Bank.GetClientsWithAccount_<YourName> @AccountType = 'CREDIT'
+	EXEC Bank.GetClientsWithAccount_<YourName> @AccountType = 'SAVING'
+	EXEC Bank.GetClientsWithAccount_<YourName> @AccountType = 'SOMTHING ELSE'
+```
