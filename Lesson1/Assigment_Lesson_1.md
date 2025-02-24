@@ -1,4 +1,6 @@
 # Assigments: Lesson 1
+	Send your homework to email <b>Andrew.a4100@gmail.com<b> for validation
+
 
 ## Schema HomePro
 
@@ -26,8 +28,6 @@
 17.	Find Quotes where Description contains word ‘discount’.
 
 <br>
-Send your homework to email <b>Andrew.a4100@gmail.com<b> for validation
-<br>
 
 ## Schema Bank
 
@@ -35,10 +35,10 @@ Send your homework to email <b>Andrew.a4100@gmail.com<b> for validation
 
 1. Get all a data from Table Clients 
 2. Find all Clients with LastName =’Smith’ 
-3. Get the FirstName,LastName,Phone,State for all clients from Virginia. 
-4. Get the FirstName,LastName,Phone,Email of all clients who have an Gmail account. 
-5. Get all data of client whose LastName starts from letter ‘M’ 
-6. Get all data of client whose LastName starts from letter ‘M’ and has the last letter ‘S’ 
+3. Get the <b>FirstName,LastName,Phone,State</b> for all clients from Virginia. 
+4. Get the <b>FirstName,LastName,Phone,Email</b> of all clients who have an Gmail account. 
+5. Get all data of client whose LastName starts from letter 'M' 
+6. Get all data of client whose LastName starts from letter 'M' and has the last letter 'S' 
 7. Get names and phones of all Business clients. 
 8. Get information about clients younger than 20. 
 9. Get information about clients whose age between 20 and 40. 
@@ -46,12 +46,10 @@ Send your homework to email <b>Andrew.a4100@gmail.com<b> for validation
 
 ### Bank.Accounts 
 
-11. Show balances of all ‘CREDIT’ accounts. 
-12. Find all ‘checking’ accounts with Balance bigger than $2000. 
+11. Show balances of all 'CREDIT' accounts. 
+12. Find all 'checking' accounts with Balance bigger than $2000. 
 
 ### Bank.Transactions 
 13. Find all ‘Pending’ transactions. 
 14. Find all ‘commited’ transactions made since ‘1-jan-2016’ 
 15. Find all transactions made in 2016 year. 
-<br>
-Send your homework to email Andrew.a4100@gmail.com for validatio
