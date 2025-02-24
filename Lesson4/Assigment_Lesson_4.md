@@ -4,39 +4,31 @@
 
 ### Stored procedures
 
-1. Find Customers that are younger than average customer’s age 
-2. Find Customers that at least 20 years older than youngest one. 
-3. Find Customers and Quotes that have quote bigger than average quote 
-4. Find Customers that have quotes (multivalued subqueries) 
-5. Find Customers that do NOT have any Quote (multivalued subqueries) 
-6. Find Customers that have Schedules and Quotes (multivalued subqueries) 
-7. Find Customers that have Schedules but do not have any Quote (multivalued subqueries) 
-8. Find Customers that have Scheduled JobType = ‘Remodeling’ and younger than 70. 
-9. Using table valued subquery find all Schedules with Jobtype= ‘Remodeling’ combined with Quotes. Join the subquery result with Customers.
--	List of output columns (<b>FirstName, LastName, JobType, QuoteDescription, Estimation</b>)
-10. Using table valued subquery find all Customers that have letter ‘M” in LastName. Show the list of customers with Scheduled Job if it exists.
-
-
 1. Create the Stored procedure to get list of all customers. 
 -	Name: HomePro.GetAllCustomers_<YourName>.
 Execute and validate result: 
+```sql
 	Exec HomePro.GetAllCustomers_<YourName>
+```	
 	
 2. Create the procedure to get list of customers without schedules. 
 -	Name: HomePro.GetCustomersNoSchedule_<YourName>
 List of columns: CustomerId,FirstName,LastName,Email,Phone,ZipCode,Age
 Execute and validate result: 
-
+```sql
 	Exec HomePro.GetCustomersNoSchedule_<YourName>
+```	
 	
 3. Create procedure to get list of customers who is older than given age.
 Name: HomePro.GetCustomersByAge_<YourName>
 Parameter: @Age int
 List of columns: CustomerId,FirstName,LastName,Email,Phone,ZipCode, Age
 Execute SP with 3 different Age values and validate result: 
+```sql
 a. EXEC HomePro.GetCustomersByAge_<Name> @Age = 0
 b. EXEC HomePro.GetCustomersByAge_<Name> @Age = 20
 c. EXEC HomePro.GetCustomersByAge_<Name> @Age = 200
+```
 4. Create procedure to get list of customers that have schedules after the given date:
 Name: HomePro.GetSchedulesByDate_<YourName>
 Parameter: @DateNedeed date
@@ -60,7 +52,10 @@ Call the SP with 3 different parameters on order the test data validation and co
 • @DateNedeed = ‘2015-10-01
 
 
-Database Bank
+## Schema Bank
+
+### Stored procedures
+
 1. Create and test the procedure to get list of all clients. 
 Name: Bank.GetAllClients_<YourName>
 List of columns: ClientId,FirstName,LastName,Phone,Email,State,Age,Type

@@ -7,8 +7,8 @@
 1. Find Customers that are younger than average customer’s age 
 2. Find Customers that at least 20 years older than youngest one. 
 3. Find Customers and Quotes that have quote bigger than average quote 
-4. Find Customers that have quotes (multivalued subqueries) 
-5. Find Customers that do NOT have any Quote (multivalued subqueries) 
+4. Find Customers that have quotes (<i>multivalued subqueries</i>) 
+5. Find Customers that do NOT have any Quote (<em>multivalued subqueries</em>) 
 6. Find Customers that have Schedules and Quotes (multivalued subqueries) 
 7. Find Customers that have Schedules but do not have any Quote (multivalued subqueries) 
 8. Find Customers that have Scheduled JobType = ‘Remodeling’ and younger than 70. 
@@ -30,6 +30,6 @@
 <b>Note:</b> Double subquery. 
 8. Find Clients that have made any payment after 01/01/2016 (TransactionTime > '2016-01-01') and older than 20. 
 9. Using table valued subquery find all Accounts combined Payment transactions made after 01/01/2016. Join the subquery result with Clients.
--	List of output columns (c.FirstName, c.LastName, subquery.AccountNum, subquery.Balance, subquery.Type, subquery.Amount, subquery.TransactionTime) 
+-	List of output columns (<b>c.FirstName, c.LastName, subquery.AccountNum, subquery.Balance, subquery.Type, subquery.Amount, subquery.TransactionTime</b>) 
 10. Using table valued subquery find all Accounts combined Payment transactions made from checking account. Show all Clients with transactions described bellow if they exist. If transaction does not exist show NULL.
-- List of output columns (c.FirstName, c.LastName, subquery.AccountNum, subquery.Balance, subquery.Type, subquery.Amount, subquery.TransactionTime)
+- List of output columns (<b>c.FirstName, c.LastName, subquery.AccountNum, subquery.Balance, subquery.Type, subquery.Amount, subquery.TransactionTime</b>)
