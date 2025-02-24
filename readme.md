@@ -32,20 +32,19 @@ It is higly recomended to try to connect to the meeting in advance in order to d
 ## Documentation
 The lesson documentation is available via following links:
 ### [Lesson 1](./Lesson1)
-- [The presentation slides](./Lesson1/Lesson%201%20Database.pdf)
-- [Assigments Schema HomePro](./Lesson1/Assigment_Lesson_1_HomePro.md)
-- [Assigments Schema Bank](./Lesson1/Schema%20Bank.pdf)
+- [The slides](./Lesson1/Lesson%201%20Database.pdf)
+- [Assigments](./Lesson1/Assigment_Lesson_1.md)
 
 ### [Lesson 2](./Lesson2)
-- [The presentation slides](./Lesson2/Lesson%202%20Join.pdf)
-- [Assigments Schema HomePro](./Lesson2/Lesson%202%20HomePro%20Assigment.pdf)
-- [Assigments Schema Bank](./Lesson2/Lesson%202%20Bank%20Assigment.pdf)
+- [The slides](./Lesson2/Lesson%202%20Join.pdf)
+- [Assigments HomePro](./Lesson2/Lesson%202%20HomePro%20Assigment.pdf)
+- [Assigments Bank](./Lesson2/Lesson%202%20Bank%20Assigment.pdf)
 - [SQL Joins Reference](./Lesson2/Visual_SQL_JOINS_orig.jpg)
 
 ### [Lesson 3](./Lesson3)
-- [The presentation slides](./Lesson3/Lesson%203%20Subqueries.pdf)
-- [Assigments Schema HomePro](./Lesson3/Assigment_Lesson_3_HomePro.md)
-- [Assigments Schema Bank](./Lesson3/Lesson%203%20Bank%20Assigment.pdf)
+- [The slides](./Lesson3/Lesson%203%20Subqueries.pdf)
+- [Assigments HomePro](./Lesson3/Assigment_Lesson_3_HomePro.md)
+- [Assigments Bank](./Lesson3/Lesson%203%20Bank%20Assigment.pdf)
 
 ### [Lesson 4](./Lesson4)
 - [The presentation slides](./Lesson4/StoredProcedures.pdf)
