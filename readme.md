@@ -47,5 +47,5 @@ The lesson documentation is available via following links:
 
 ### [Lesson 4](./Lesson4)
 - [The presentation slides](./Lesson4/StoredProcedures.pdf)
-- [The lesson assigments](./Lesson4/SP_Tasks.pdf)
+- [The lesson assigments](./Lesson4/Assigment_Lesson_4.md)
 

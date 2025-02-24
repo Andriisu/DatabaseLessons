@@ -27,7 +27,7 @@
 5. Find Clients that do NOT have any saving Account (<i>multivalued subqueries</i>)  
 6. Find Clients and Accounts that made at least on payment from that Account (<i>multivalued subqueries</i>) 
 7. Find Clients and Accounts that made the biggest payment transaction: max(Amount). (<i>Double subquery</i>) 
-8. Find Clients that have made any payment after 01/01/2016 (<b>TransactionTime > '2016-01-01'<b>) and older than 20. 
+8. Find Clients that have made any payment after 01/01/2016 (<b>TransactionTime > '2016-01-01'</b>) and older than 20. 
 9. Using table valued subquery find all Accounts combined Payment transactions made after 01/01/2016. Join the subquery result with Clients.
 -	List of output columns (<b>c.FirstName, c.LastName, subquery.AccountNum, subquery.Balance, subquery.Type, subquery.Amount, subquery.TransactionTime</b>) 
 10. Using table valued subquery find all Accounts combined Payment transactions made from checking account. Show all Clients with transactions described bellow if they exist. If transaction does not exist show NULL.
