@@ -7,7 +7,8 @@
 1. Create the Stored procedure to get list of all customers. 
 <br>
 Name: <b>HomePro.GetAllCustomers_&lt;YourName&gt;</b>.
-Execute and validate result: 
+Execute and validate result:
+
 ```sql
 	Exec HomePro.GetAllCustomers_<YourName>
 ```	
@@ -19,6 +20,7 @@ Name: HomePro.GetCustomersNoSchedule_&lt;YourName&gt;
 List of columns: CustomerId,FirstName,LastName,Email,Phone,ZipCode,Age
 <br>
 Execute and validate result: 
+
 ```sql
 	Exec HomePro.GetCustomersNoSchedule_<YourName>
 ```	
@@ -32,6 +34,7 @@ Parameter: @Age int
 List of columns: CustomerId,FirstName,LastName,Email,Phone,ZipCode, Age
 <br>
 Execute SP with 3 different Age values and validate result: 
+
 ```sql
 	EXEC HomePro.GetCustomersByAge_<Name> @Age = 0
 	EXEC HomePro.GetCustomersByAge_<Name> @Age = 20
@@ -46,6 +49,7 @@ Parameter: @DateNedeed date
 List of columns: CustomerId,FirstName,LastName,Email,Phone,ZipCode,Age
 <br>
 Call the SP with 3 different parameters on order the test data validation and compare the result
+
 ```sql
 	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2000-12-31’
 	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2012-10-21’
@@ -53,6 +57,7 @@ Call the SP with 3 different parameters on order the test data validation and co
 ```
 5. Add validation to stored procedure HomePro.GetCustomersByAge_<YourName> that 
 parameter @Age contains Proper value. Call the SP with 3 different parameters:
+
 ```sql
 	EXEC HomePro.GetCustomersByAge_<Name> @Age = 0
 	EXEC HomePro.GetCustomersByAge_<Name> @Age = 20
@@ -63,6 +68,7 @@ The procedure must verify that parameter is in allowed range.
 <br>Say between ‘2010-01-01’ and ‘2020-01-10’.
 
 Call the SP with 3 different parameters on order the test data validation and compare the result
+
 ```sql
 EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2000-12-31’
 EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2012-10-21’
