@@ -1,6 +1,6 @@
-#Assigments: Lesson 3. Schema HomePro.
+# Assigments: Lesson 3. Schema HomePro.
 
-##Subqueries
+## Subqueries
 
 1. Find Customers that are younger than average customer’s age 
 2. Find Customers that at least 20 years older than youngest one. 
