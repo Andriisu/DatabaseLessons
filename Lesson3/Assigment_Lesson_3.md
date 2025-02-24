@@ -13,7 +13,7 @@
 7. Find Customers that have Schedules but do not have any Quote (<i>multivalued subqueries</i>) 
 8. Find Customers that have Scheduled <b>JobType = 'Remodeling'</b> and younger than 70. 
 9. Using table valued subquery find all Schedules with <b>Jobtype= 'Remodeling'</b> combined with Quotes. Join the subquery result with Customers.
--	List of output columns (<b>FirstName, LastName, JobType, QuoteDescription, Estimation</b>)
+<br>List of output columns (<b>FirstName, LastName, JobType, QuoteDescription, Estimation</b>)
 10. Using table valued subquery find all Customers that have letter 'M' in <b>LastName</b>. Show the list of customers with Scheduled Job if it exists.
 
 ## Schema Bank 
@@ -29,6 +29,6 @@
 7. Find Clients and Accounts that made the biggest payment transaction: max(Amount). (<i>Double subquery</i>) 
 8. Find Clients that have made any payment after 01/01/2016 (<b>TransactionTime > '2016-01-01'</b>) and older than 20. 
 9. Using table valued subquery find all Accounts combined Payment transactions made after 01/01/2016. Join the subquery result with Clients.
--	List of output columns (<b>c.FirstName, c.LastName, subquery.AccountNum, subquery.Balance, subquery.Type, subquery.Amount, subquery.TransactionTime</b>) 
+<br>List of output columns (<b>c.FirstName, c.LastName, subquery.AccountNum, subquery.Balance, subquery.Type, subquery.Amount, subquery.TransactionTime</b>) 
 10. Using table valued subquery find all Accounts combined Payment transactions made from checking account. Show all Clients with transactions described bellow if they exist. If transaction does not exist show NULL.
-- List of output columns (<b>c.FirstName, c.LastName, subquery.AccountNum, subquery.Balance, subquery.Type, subquery.Amount, subquery.TransactionTime</b>)
+<br>List of output columns (<b>c.FirstName, c.LastName, subquery.AccountNum, subquery.Balance, subquery.Type, subquery.Amount, subquery.TransactionTime</b>)

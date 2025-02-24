@@ -46,6 +46,6 @@ The lesson documentation is available via following links:
 - [Assigments](./Lesson3/Assigment_Lesson_3.md)
 
 ### [Lesson 4](./Lesson4)
-- [The presentation slides](./Lesson4/StoredProcedures.pdf)
-- [The lesson assigments](./Lesson4/Assigment_Lesson_4.md)
+- [The slides](./Lesson4/StoredProcedures.pdf)
+- [The assigments](./Lesson4/Assigment_Lesson_4.md)
 
