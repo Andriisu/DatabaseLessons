@@ -4,8 +4,7 @@
 
 ### Stored procedures
 
-1. Create the Stored procedure to get list of all customers. 
--	Name: HomePro.GetAllCustomers_<YourName>.
+1. Create the Stored procedure to get list of all customers. <br>Name: <b>HomePro.GetAllCustomers_<YourName></b>.
 Execute and validate result: 
 ```sql
 	Exec HomePro.GetAllCustomers_<YourName>
@@ -19,37 +18,46 @@ Execute and validate result:
 	Exec HomePro.GetCustomersNoSchedule_<YourName>
 ```	
 	
-3. Create procedure to get list of customers who is older than given age.
+3. Create procedure to get list of customers who is older than given age.<br>
 Name: HomePro.GetCustomersByAge_<YourName>
+<br>
 Parameter: @Age int
+<br>
 List of columns: CustomerId,FirstName,LastName,Email,Phone,ZipCode, Age
+<br>
 Execute SP with 3 different Age values and validate result: 
 ```sql
-a. EXEC HomePro.GetCustomersByAge_<Name> @Age = 0
-b. EXEC HomePro.GetCustomersByAge_<Name> @Age = 20
-c. EXEC HomePro.GetCustomersByAge_<Name> @Age = 200
+	EXEC HomePro.GetCustomersByAge_<Name> @Age = 0
+	EXEC HomePro.GetCustomersByAge_<Name> @Age = 20
+	EXEC HomePro.GetCustomersByAge_<Name> @Age = 200
 ```
-4. Create procedure to get list of customers that have schedules after the given date:
+4. Create procedure to get list of customers that have schedules after the given date:<br>
 Name: HomePro.GetSchedulesByDate_<YourName>
 Parameter: @DateNedeed date
 List of columns: CustomerId,FirstName,LastName,Email,Phone,ZipCode,Age
 Call the SP with 3 different parameters on order the test data validation and compare the result
-• @DateNedeed = ‘2000-12-31’
-• @DateNedeed = ‘2012-10-21’
-• @DateNedeed = ‘2015-10-01’
+```sql
+	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2000-12-31’
+	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2012-10-21’
+	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2015-10-01’
+```
 5. Add validation to stored procedure HomePro.GetCustomersByAge_<YourName> that 
 parameter @Age contains Proper value. Call the SP with 3 different parameters:
-a. EXEC HomePro.GetCustomersByAge_<Name> @Age = 0
-b. EXEC HomePro.GetCustomersByAge_<Name> @Age = 20
-c. EXEC HomePro.GetCustomersByAge_<Name> @Age = 200
+```sql
+	EXEC HomePro.GetCustomersByAge_<Name> @Age = 0
+	EXEC HomePro.GetCustomersByAge_<Name> @Age = 20
+	EXEC HomePro.GetCustomersByAge_<Name> @Age = 200
+```
 6. Add validation to procedure HomePro.GetSchedulesByDate_<YourName>
 The procedure must verify that parameter is in allowed range. Say between ‘2010-01-01’ and 
 ‘2020-01-10’.
 2
 Call the SP with 3 different parameters on order the test data validation and compare the result
-• @DateNedeed = ‘2000-12-31’
-• @DateNedeed = ‘2012-10-21’
-• @DateNedeed = ‘2015-10-01
+```sql
+EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2000-12-31’
+EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2012-10-21’
+EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2015-10-01
+```
 
 
 ## Schema Bank
