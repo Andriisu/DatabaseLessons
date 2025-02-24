@@ -4,22 +4,28 @@
 
 ### Stored procedures
 
-1. Create the Stored procedure to get list of all customers. <br>Name: <b>HomePro.GetAllCustomers_<YourName></b>.
+1. Create the Stored procedure to get list of all customers. 
+<br>
+Name: <b>HomePro.GetAllCustomers_&lt;YourName&gt;</b>.
 Execute and validate result: 
 ```sql
 	Exec HomePro.GetAllCustomers_<YourName>
 ```	
 	
 2. Create the procedure to get list of customers without schedules. 
--	Name: HomePro.GetCustomersNoSchedule_<YourName>
+<br>
+Name: HomePro.GetCustomersNoSchedule_&lt;YourName&gt;
+<br>
 List of columns: CustomerId,FirstName,LastName,Email,Phone,ZipCode,Age
+<br>
 Execute and validate result: 
 ```sql
 	Exec HomePro.GetCustomersNoSchedule_<YourName>
 ```	
 	
-3. Create procedure to get list of customers who is older than given age.<br>
-Name: HomePro.GetCustomersByAge_<YourName>
+3. Create procedure to get list of customers who is older than given age.
+<br>
+Name: HomePro.GetCustomersByAge_&lt;YourName&gt;
 <br>
 Parameter: @Age int
 <br>
@@ -31,10 +37,14 @@ Execute SP with 3 different Age values and validate result:
 	EXEC HomePro.GetCustomersByAge_<Name> @Age = 20
 	EXEC HomePro.GetCustomersByAge_<Name> @Age = 200
 ```
-4. Create procedure to get list of customers that have schedules after the given date:<br>
+4. Create procedure to get list of customers that have schedules after the given date:
+<br>
 Name: HomePro.GetSchedulesByDate_<YourName>
+<br>
 Parameter: @DateNedeed date
+<br>
 List of columns: CustomerId,FirstName,LastName,Email,Phone,ZipCode,Age
+<br>
 Call the SP with 3 different parameters on order the test data validation and compare the result
 ```sql
 	EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2000-12-31’
@@ -49,9 +59,9 @@ parameter @Age contains Proper value. Call the SP with 3 different parameters:
 	EXEC HomePro.GetCustomersByAge_<Name> @Age = 200
 ```
 6. Add validation to procedure HomePro.GetSchedulesByDate_<YourName>
-The procedure must verify that parameter is in allowed range. Say between ‘2010-01-01’ and 
-‘2020-01-10’.
-2
+The procedure must verify that parameter is in allowed range. 
+<br>Say between ‘2010-01-01’ and ‘2020-01-10’.
+
 Call the SP with 3 different parameters on order the test data validation and compare the result
 ```sql
 EXEC HomePro.GetSchedulesByDate_<YourName> @DateNedeed = ‘2000-12-31’
