@@ -32,11 +32,13 @@ As soon as extention <b>mssql</b> installed.
 > Server name: <b>homepro.database.windows.net</b>
 
 > Trust server certificate: [X]
+
 > Authentication Type: <b>SQL Login</b>
-- user name: <b>HomeProUser</b>
-- Password: <b>qwerty_123</b>
-- Save Password: <b>True</b> 
-- Database Name: <b>main</b>
+
+> User name: <b>HomeProUser</b>
+> Password: <b>qwerty_123</b>
+> Save Password: <b>True</b> 
+> Database Name: <b>main</b>
 
 Push <b>Connect</b>
 ![./docs/3_VSCodeSQLConnection.png](./docs/3_VSCodeSQLConnection.png)
