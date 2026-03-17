@@ -18,16 +18,19 @@ As soon as installation finished.
 
 ## 3. Connect to Database 
 <br>
-As soon as extention <b>mssql</b> installed. 
+As soon as extention <b>mssql</b> installed.
+
 - Go to SQL Server toolbox (Ctrl+Alt+D)
 - Click "Add Connection"
 - Fill the connection information as follows.
 
 <br>
+
 > [!NOTE]
 > Profile Name: <b>DatabseHomePro</b>
 > Server name: <b>homepro.database.windows.net</b>
 > Trust server certificate: [X]
+
 - Authentication Type: <b>SQL Login</b>
 - user name: <b>HomeProUser</b>
 - Password: <b>qwerty_123</b>
