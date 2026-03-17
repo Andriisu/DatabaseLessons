@@ -24,7 +24,13 @@ As soon as extention <b>mssql</b> installed.
 - Click "Add Connection"
 - Fill the connection information as follows.
 
-<br>
+
+| Field        | Value           |
+| ------------- | -------------:|
+| Profile Name      | <b>DatabaseHomePro</b> |
+| Server name       | <b>homepro.database.windows.net</b>|
+| Trust server certificate | [X]|
+| Authentication Type | <b>SQL Login</b>|
 
 > [!NOTE] 
 > Profile Name: <b>DatabseHomePro</b>
