@@ -1,17 +1,14 @@
 # Learnix SQL lessons
 
-
 ## What you need to have before the first lesson 
 ### You need laptop
-- Please make sure you have a charger. 
-- Also, make sure you have free disk space. 
-- You have working wi-fi adapter in your laptop. 
-- And you know your laptop ADMIN password to be able to install the software.
+- Please make sure you have a charger
+- Also, make sure you have free disk space 
+- You have working wi-fi adapter in your laptop 
+- And you know your laptop ADMIN password to be able to install the software
 
-### Please download and install SQL client software
-- If you have OS <b>WINDOWS</b> then install [SQL Server Management Studio](SQLServerManagementStudioInstallation.md) 
-- If you have <b>MacOS</b> then install [Azure Data Studio](AzureDataStudio.md)
-
+### Please download and install SQL client software "Visual Studio Code"
+- [VS Code Installation instructions](VSCodeInstallation.md) 
 
 # Lessons and materials
 
@@ -19,11 +16,9 @@ Our lessons are going to be remote via Zoom.
 
 Here is URL to join to the lesson
 <br>
+https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
 
-<b>Group 2407</b> Lesson dates: Feb 18, Feb 20, Feb 25, Feb 27
-<br>
-Zoom link:
-<br>
+<b>Group 2601</b> Lesson dates: Mar 17, Mar 19, Mat 24, Mar 26 
 
 <br>
 It is higly recomended to try to connect to the meeting in advance in order to download and install Zoom software and verify that you are able to connect to the meeting.
