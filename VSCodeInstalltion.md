@@ -26,9 +26,11 @@ As soon as extention <b>mssql</b> installed.
 
 <br>
 
-> [!NOTE]
+> [!NOTE] Connection Info 
 > Profile Name: <b>DatabseHomePro</b>
+
 > Server name: <b>homepro.database.windows.net</b>
+
 > Trust server certificate: [X]
 
 - Authentication Type: <b>SQL Login</b>
