@@ -2,15 +2,16 @@
 
 ## 1. Install VS Code 
 <br>
-Download and install <b>Visual Studio Code</b>(https://code.visualstudio.com/download)
+Download and install <b>Visual Studio Code</b>: https://code.visualstudio.com/download
 
-## 2. Intall extention SQL Server <b>mssql</b>
+## 2. Install the extention SQL Server "mssql"
 <br>
 As soon as installation finished.
 
 - Start VS Code 
 - Go to Extention Marketplace at the tool box
-- Find extention SQL Server <b>mssql</b>
+- Find extention SQL Server. Type: <b>mssql</b>
+- Push <b>Install</b>
  
 ![./docs/2_VSCodeExtention.png](./docs/2_VSCodeExtention.png)
 
@@ -19,15 +20,15 @@ As soon as installation finished.
 <br>
 
 As soon as extention <b>mssql</b> installed. 
-- Go to SQL Server toolbox (Ctrl+Alt+D)
-- Click "Add Connection"
-- Fill the connection information as follows.
+[^1]: Go to SQL Server toolbox (Ctrl+Alt+D)
+[^2]: Click "Add Connection"
+[^3]: Fill the connection information as follows.
 
 <br>
 
 - Profile Name: <b>DatabseHomePro</b>
 - Server name: <b>homepro.database.windows.net</b>
-- Trust server certificate: <b>True</b>
+- Trust server certificate: [X]
 - Authentication Type: <b>SQL Login</b>
 - user name: <b>HomeProUser</b>
 - Password: <b>qwerty_123</b>
