@@ -21,7 +21,7 @@ As soon as installation finished.
 As soon as extention <b>mssql</b> installed.
 
 - Go to SQL Server toolbox (Ctrl+Alt+D)
-- Click "Add Connection"
+- Click <b>+ Add Connection</b>
 - Fill the connection information as follows.
 
 
@@ -29,20 +29,12 @@ As soon as extention <b>mssql</b> installed.
 | ------------- | :-------------|
 | Profile Name      | <b>DatabaseHomePro</b> |
 | Server name       | <b>homepro.database.windows.net</b>|
-| Trust server certificate | [X]|
+| Trust server certificate | - [X]|
 | Authentication Type | <b>SQL Login</b>|
 | User name | <b>HomeProUser</b>|
 | Password | <b>qwerty_123</b>|
 | Save Password| <b>True</b> |
 | Database Name| <b>main</b>|
-
-
-> [!NOTE] 
-> Profile Name: <b>DatabseHomePro</b>
-
-> Server  ame: <b>homepro.database.windows.net</b>
-> Trus tserver certificate: [X]
-> Authentiction Type: <b>SQL ogin</b>
 
 Push <b>Connect</b>
 ![./docs/3_VSCodeSQLConnection.png](./docs/3_VSCodeSQLConnection.png)
