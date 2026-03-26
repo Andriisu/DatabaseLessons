@@ -32,8 +32,7 @@ The lesson documentation is available via following links:
 
 ### [Lesson 2](./Lesson2)
 - [The slides](./Lesson2/Lesson%202%20Join.pdf)
-- [Assigments HomePro](./Lesson2/Lesson%202%20HomePro%20Assigment.pdf)
-- [Assigments Bank](./Lesson2/Lesson%202%20Bank%20Assigment.pdf)
+- [Assigments](./Lesson2/Assigment_Lesson_2.md)
 - [SQL Joins Reference](./Lesson2/Visual_SQL_JOINS_orig.jpg)
 
 ### [Lesson 3](./Lesson3)
