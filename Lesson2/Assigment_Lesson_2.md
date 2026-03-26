@@ -8,11 +8,11 @@
 
 
 1. Calculate number of customers and average customers’ age.
-2. Calculate number of customers, show the age of the oldest and youngest customer, who did not subscribe on NewsLetter. 
+2. Calculate number of customers, show the age of the oldest and youngest customer, who did not subscribe on <b>NewsLetter</b>. 
 
 #### Homepro.Schedules
-3. Calculate the number of rows with JobType ‘Remodeling’. 
-4. Calculate the count of each JobType.
+3. Calculate the number of rows with <b>JobType='Remodeling'</b>. 
+4. Calculate the count of each <b>JobType</b>.
 5. Find the earliest and the last date when we have scheduled work.
 
 #### Homepro.Quotes
@@ -24,7 +24,7 @@
 1. Find all Customers who has scheduled work after ‘2015-01-01’
 2. Find customers (<b>FirstName, LastName, Email, Phone, Description, Estimation</b>) that have Quote’s Estimation bigger than $500. Order by Estimation.
 3. Find All customers (<b>FirstName,LastName,Email,Phone, AltPhone,QuoteId,Description, Estimation</b>) who has a quote but did not provide AltPhone. 
-Note: The column QuoteId represents data from HomePro.Quotes.Id 
+<i>Note: The column QuoteId represents data from HomePro.Quotes.Id</i> 
 4. Find All customers (<b>FirstName,LastName,Email,Phone, AltPhone, QuoteId, Description, Estimation</b>) who has a quote within year 2016 but did not provide AltPhone.
 5. Find customers that do not have any Quote.
 6. Find customers that have neither Quote nor Schedule. 
