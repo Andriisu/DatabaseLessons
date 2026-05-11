@@ -51,7 +51,14 @@ If you see the message like at the picture below, then you have your IP address 
 ![./docs/Firewall.png](./docs/Firewall.png)
 
 
-## 5. Execute SQL queries
+## 5. Open the query window
+<br>
+Click the right mouse button on <b>DatabaseHomePro</b> and chose <b>New query</b>
+
+![./docs/4_VSCodeNewQuery.png](./docs/4_VSCodeNewQuery.png)
+
+
+## 6. Execute SQL queries
 <br>
 Having successful login you must see picture like below  
 

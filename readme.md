@@ -18,7 +18,7 @@ Here is URL to join to the lesson
 <br>
 https://us02web.zoom.us/j/361503133?pwd=d2tvVjVubkpmZFdEZU9wdlpZUEpXUT09
 
-<b>Group 2601</b> Lesson dates: Mar 17, Mar 19, Mat 24, Mar 26 
+<b>Group 2603</b> Lesson dates: May 4, May 6, May 11, May 13 
 
 <br>
 It is higly recomended to try to connect to the meeting in advance in order to download and install Zoom software and verify that you are able to connect to the meeting.
